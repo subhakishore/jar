@@ -16,7 +16,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/YOUR_USERNAME/jenkins-ec2-deploy.git'
+                git branch: 'main', url: 'https://github.com/subhakishore/jar.git'
             }
         }
 
