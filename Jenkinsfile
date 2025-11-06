@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        EC2_HOST = 'ec2-xx-xx-xx-xx.compute.amazonaws.com'
+        EC2_HOST = 'ec2-13-212-169-241.ap-southeast-1.compute.amazonaws.com'
         EC2_USER = 'ubuntu'
         APP_DIR = '/home/ubuntu/app'
         SSH_KEY_ID = 'ec2-ssh'
